@@ -4,13 +4,17 @@
 ##### In Boolean Library,
 **1. convert_to_binary(size):**
   * This def provides to create the inputs for any n size of bollean function.You can enter the n and you can get the list of all n size inputs for binary form.
+
 **2. convert_to_binary_given(size,results):**
   * This def provides to create the inputs for any n size of bollean function. This def works on given inputs.
+
 **3. truth_table(f,string_convert2):** 
   * If you add the funciton, input size and list of inputs, you can reach the truth table of function. Remmeber that, your function should be def form. For example,
   * It means that x7 + x8 + x1x2 + x3x4 + x5x6 + x7x8 + x1x2x3x4 + x3x4x5x7
+
 **4. non_linearity (f,affine,size,string_convert2):**
   * We use the this formula, Nf=min(min\ d(f,l_alpha),2^n-max d(f,l_alpha)). We compute the min and max value of d(f,l_alpha), then we choose the min value in all values.
+
 **5. non_homo(f,size,string_convert2):**
   * It means that NH_f=prob(f(x + y) + f(x) + f(y)=0), then we apply this.
     
@@ -34,6 +38,7 @@
     
 **13. LAT(alpha,betha,size):**
   * For example, we calculate the truth table of beta S(x) by using all V_6 and f1,f2,f3,f4,f5,f6. Then, we compute the truth table of ax and compare them. So, we create the LAT.
+
 **14. convert_to_decimal(x):**
   * this provides binary convert to decimal numbers.
     
