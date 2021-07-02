@@ -2,7 +2,7 @@
 #### In cryptography, an S-box (substitution-box) is a basic component of symmetric key algorithms which performs substitution.
 #### Mathematically, an S-box is a vectorial Boolean function.
 ##### In Boolean Library,
-1. convert_to_binary(size):
+**1. convert_to_binary(size):**
   * This def provides to create the inputs for any n size of bollean function.You can enter the n and you can get the list of all n size inputs for binary form.
 2. convert_to_binary_given(size,results):
   * This def provides to create the inputs for any n size of bollean function. This def works on given inputs.
