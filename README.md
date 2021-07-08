@@ -1,7 +1,7 @@
 # IAM592-Project-Sbox and AES
 Hi everyone, I prepare the S-Box project for IAM 592 Introduction to Programming II. You can find explaination of code.  
 ### Example of Boolean:
-I try to show one example about Boolean function, this example of code shows that Truth Table,Non linearity,Non homomoprpicity,Correlation immunity and Propogation characteristics of f.
+I try to show one example about Boolean function, this example of code shows that Truth Table,Non linearity,Non homomoprpicity,Correlation immunity and Propogation characteristics of f.\\
 0  &  1  &  2 &  3   & 4  & 5  & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 
 46 &  10 &  3 &  15  & 48 & 60 & 22& 43& 50& 2 & 50 & 30 & 13 & 38 & 58 & 7 
 First of all, we calculate the truth table of $\beta S(x)$ by using all $B\in V_6$ and $f1,f2,f3,f4,f5,f6$. Then, we compute the truth table of $ax$ and compare them. So, we create the LAT.
