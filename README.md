@@ -2,11 +2,11 @@
 Hi everyone, I prepare the S-Box project for IAM 592 Introduction to Programming II. You can find explaination of code.  
 ### Example of Boolean:
 I try to show one example about Boolean function, this example of code shows that Truth Table,Non linearity,Non homomoprpicity,Correlation immunity and Propogation characteristics of f.\
-0  &  1  &  2 &  3   & 4  & 5  & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 
-46 &  10 &  3 &  15  & 48 & 60 & 22& 43& 50& 2 & 50 & 30 & 13 & 38 & 58 & 7 
-First of all, we calculate the truth table of $\beta S(x)$ by using all $B\in V_6$ and $f1,f2,f3,f4,f5,f6$. Then, we compute the truth table of $ax$ and compare them. So, we create the LAT.
+0  &  1  &  2 &  3   & 4  & 5  & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \
+46 &  10 &  3 &  15  & 48 & 60 & 22& 43& 50& 2 & 50 & 30 & 13 & 38 & 58 & 7 \
+First of all, we calculate the truth table of $\beta S(x)$ by using all $B\in V_6$ and $f1,f2,f3,f4,f5,f6$. Then, we compute the truth table of $ax$ and compare them. So, we create the LAT.\
 ### Example of S-box:
-In cryptography, an S-box (substitution-box) is a basic component of symmetric key algorithms which performs substitution. In block ciphers, they are typically used to obscure the relationship between the key and the ciphertext, thus ensuring Shannon's property of confusion. Mathematically, an S-box is a vectorial Boolean function. 
+In cryptography, an S-box (substitution-box) is a basic component of symmetric key algorithms which performs substitution. In block ciphers, they are typically used to obscure the relationship between the key and the ciphertext, thus ensuring Shannon's property of confusion. Mathematically, an S-box is a vectorial Boolean function.\
 We have 4x6 S-Box,
 ##### In Boolean Library,
 **1. convert_to_binary(size):**
