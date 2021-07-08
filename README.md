@@ -1,6 +1,5 @@
 # IAM592-Project-Sbox and AES
-#### In cryptography, an S-box (substitution-box) is a basic component of symmetric key algorithms which performs substitution.
-#### Mathematically, an S-box is a vectorial Boolean function.
+
 ##### In Boolean Library,
 **1. convert_to_binary(size):**
   * This def provides to create the inputs for any n size of bollean function.You can enter the n and you can get the list of all n size inputs for binary form.
@@ -41,4 +40,10 @@
 
 **14. convert_to_decimal(x):**
   * this provides binary convert to decimal numbers.
+
+###Example of Boolean:
+I try to show one example about Boolean function, this example of code shows that Truth Table,Non linearity,Non homomoprpicity,Correlation immunity and Propogation characteristics of f.
+###Example of S-box:
+In cryptography, an S-box (substitution-box) is a basic component of symmetric key algorithms which performs substitution. In block ciphers, they are typically used to obscure the relationship between the key and the ciphertext, thus ensuring Shannon's property of confusion. Mathematically, an S-box is a vectorial Boolean function. 
+
     
