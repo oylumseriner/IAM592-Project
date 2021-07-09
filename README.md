@@ -41,13 +41,13 @@ The key generation process in the AES algorithm must be done beforehand for the 
 * The function RotWord takes a word [a_0, a_1, a_2, a_3] as input, performs a cyclic permutation, and returns the word [a_1, a_2, a_3, a_0]. 
 * The round constant word array, Rcon[i], contains the values given by [x^{i-1},{00},{00},{00}], with $x^{i-1}$ being powers of x (x is denoted as {02}) in the field GF(2^8).
 #### Inverse Cipher:
-The Cipher transformations can be inverted and then implemented in reverse order to produce a straightforward Inverse Cipher for the AES algorithm.
+The Cipher transformations can be inverted and then implemented in reverse order to produce a straightforward Inverse Cipher for the AES algorithm.\
 **1. InvShiftRows() Transformation** 
-InvShiftRows() is the inverse of the ShiftRows() transformation. This time the state matrix is shifted to the right, not to the left. The second line is shifted one byte, the third line two bytes, the fourth line three bytes to the right.
+InvShiftRows() is the inverse of the ShiftRows() transformation. This time the state matrix is shifted to the right, not to the left. The second line is shifted one byte, the third line two bytes, the fourth line three bytes to the right.\
 **2. InvSubBytes() Transformation**
-InvSubBytes() is the inverse of the byte substitution transformation, in which the inverse Sbox is applied to each byte of the State. This S-Box is not the same S-Box. So, the value 0x19 showed the value 0xD4 in the S-Box. In the current S-Box, 0xD4 is expected to display the value 0x19. So, the inverse is used with an S-Box.
+InvSubBytes() is the inverse of the byte substitution transformation, in which the inverse Sbox is applied to each byte of the State. This S-Box is not the same S-Box. So, the value 0x19 showed the value 0xD4 in the S-Box. In the current S-Box, 0xD4 is expected to display the value 0x19. So, the inverse is used with an S-Box.\
 **3. InvMixColumns() Transformation**
-We can focus this equation, a^{-1}(x)=11x^3+13x^2+9x+14.
+We can focus this equation, a^{-1}(x)=11x^3+13x^2+9x+14.\
 Remember that, we can consider the a(x) xor b(x)=d(x),
 * d_0=(14 * b_0) xor (11 * b_1) xor (13 * b_2) xor (19 * b_3)
 * d_1=(9 * b_0) xor (14 * b_1) xor (11 * b_2) xor (13 * b_3)
@@ -70,7 +70,7 @@ Remember that, we can consider the a(x) xor b(x)=d(x),
 
 **5. non_homo(f,size,string_convert2):**
   * It means that NH_f=prob(f(x + y) + f(x) + f(y)=0), then we apply this.
-    
+
 **6. correlation_im1(f,affine,size,string_convert2):**
   * We check the l_\alpha, the we start the wt(f)=1. d(f,l_{\alpha})=2^{n-1}. If we have the all restults are not 2**(size-1), we should stop.
    
