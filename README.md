@@ -1,5 +1,5 @@
 # IAM592-Project-Sbox and AES
-Hi everyone, I prepare the S-Box project for IAM 592 Introduction to Programming II. You can find explaination of code.  
+Hi everyone, I prepare the S-Box project for IAM 592 Programming Techniques in Applied Mathematics II. You can find explaination of code.  
 ### Example of Boolean:
 I try to show one example about Boolean function, this example of code shows that Truth Table,Non linearity,Non homomoprpicity,Correlation immunity and Propogation characteristics of f.
 ### Example of S-box:
