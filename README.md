@@ -39,7 +39,7 @@ In the AddRoundKey() transformation, a Round Key is added to the State by a simp
 The key generation process in the AES algorithm must be done beforehand for the encryption process. Each cycle provides a different key input. Therefore, the key generation process includes as many turns as the number of cycles and all keys are obtained by using the keys calculated in the previous round.
 * SubWord is a function that takes a four-byte input word and applies the S-box to each of the four bytes to produce an output word.
 * The function RotWord takes a word [a_0, a_1, a_2, a_3] as input, performs a cyclic permutation, and returns the word [a_1, a_2, a_3, a_0]. 
-* The round constant word array, Rcon[i], contains the values given by [x^{i-1},{00},{00},{00}], with $x^{i-1}$ being powers of x (x is denoted as {02}) in the field GF(2^8).
+* The round constant word array, Rcon[i], contains the values given by [x^{i-1},{00},{00},{00}], with x^{i-1} being powers of x (x is denoted as {02}) in the field GF(2^8).
 #### Inverse Cipher:
 The Cipher transformations can be inverted and then implemented in reverse order to produce a straightforward Inverse Cipher for the AES algorithm.\
 **1. InvShiftRows() Transformation** 
